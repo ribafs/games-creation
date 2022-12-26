@@ -1,0 +1,11 @@
+Para que o personagem vire para a esqeurda quando pressionar a tacla para a esquerda
+
+Criaremos dois eventos, sendo um para a condição tecla pressionada right e outro left
+
+Evento
+- right - selecionar o objeto personagem e flip horizontal não
+
+Evento
+- left - selecionar o objeto personagem e flip horizontal sim
+
+
