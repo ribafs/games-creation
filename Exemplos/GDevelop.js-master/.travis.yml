@@ -1,0 +1,45 @@
+language: cpp
+sudo: false
+
+# Cache .npm folder for faster npm install
+cache:
+  directories:
+    - $HOME/.npm
+
+addons:
+  artifacts:
+    s3_region: "us-east-1"
+    paths:
+    - GDevelop/Binaries/Output/libGD.js/Release
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    # Cmake 3+ is required by Emscripten
+    - cmake3
+
+before_install:
+  # This workaround is required to avoid libstdc++ errors (Emscripten requires a recent version of libstdc++)
+  - wget -q -O libstdc++6 http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.10_amd64.deb
+  - sudo dpkg --force-all -i libstdc++6
+
+install:
+# Emscripten
+  - git clone https://github.com/juj/emsdk.git
+  - cd emsdk
+  - ./emsdk install sdk-1.37.37-64bit
+  - ./emsdk activate sdk-1.37.37-64bit
+  - source ./emsdk_env.sh
+  - cd ..
+# Grunt
+  - npm install -g grunt-cli
+# GDevelop
+  - git clone https://github.com/4ian/GDevelop.git
+  - cd GDevelop && git clone -b $TRAVIS_BRANCH https://github.com/4ian/GDevelop.js.git
+  - cd GDevelop.js
+  - npm install
+  - npm run build
+
+script:
+#GDCore and GDCpp game engine tests:
+  - npm test

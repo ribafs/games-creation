@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Tut",
+		"tags": "",
+		"body": "Is this a black square?\n[[Yes|yes]]\n[[No|no]]",
+		"position": {
+			"x": 552,
+			"y": 219
+		},
+		"colorID": 0
+	},
+	{
+		"title": "yes",
+		"tags": "",
+		"body": "<<nametag PlayerIcon>> \nYes, I have eyes.",
+		"position": {
+			"x": 338,
+			"y": 448
+		},
+		"colorID": 0
+	},
+	{
+		"title": "no",
+		"tags": "",
+		"body": "<<nametag PlayerIcon>> \n<<set $blue_Yarn to true>>\nNo, actually, it's blue.",
+		"position": {
+			"x": 756,
+			"y": 448
+		},
+		"colorID": 0
+	}
+]

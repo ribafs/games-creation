@@ -1,0 +1,779 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectFile": "C:\\Users\\G51 Informatica\\Documents\\GDevelop projects\\Xicó vs Zombies\\game3.json",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Xicó vs Zombies",
+    "author": "Comunidade da GDevelop5",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": false
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "player/Xico-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\Xico-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/mira-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\mira-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/bala-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\bala-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie_morte-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie_morte-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie_morte-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie_morte-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie_morte-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie_morte-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie_morte-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie_morte-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie_morte-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie_morte-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie_morte-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie_morte-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie_morte-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie_morte-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/Zombie_morte-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\Zombie_morte-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/barra_de_vida-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\barra_de_vida-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/xico_morte-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\xico_morte-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/xico_morte-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\xico_morte-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/xico_morte-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\xico_morte-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/xico_morte-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\xico_morte-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/xico_morte-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\xico_morte-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/xico_morte-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\xico_morte-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zombie/xico_morte-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zombie\\xico_morte-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Boss/Boss_Sangue-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss\\Boss_Sangue-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/Machine_icon-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\Machine_icon-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/municao_icon-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\municao_icon-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Background/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background\\background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "colision-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "colision-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "uteis/colisao-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "uteis\\colisao-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "font/zombiebites/Zombiebites.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "font\\zombiebites\\Zombiebites.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Menu/glass-262105_1920.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Menu\\glass-262105_1920.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 01.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 01.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 02.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 02.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 03.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 03.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 04.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 04.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 05.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 05.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 06.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 06.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 07.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 07.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 08.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 08.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 09.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 09.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 10.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 10.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 11.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 11.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 12.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 12.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 13.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 13.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 14.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 14.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 15.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 15.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 16.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 16.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 17.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 17.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 18.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 18.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 19.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 19.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gameover/Heart - 8449 20.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gameover\\Heart - 8449 20.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/Tiro.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Tiro.wav",
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Splash.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Splash.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/zombies/zombies/zombie-6.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\zombies\\zombies\\zombie-6.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/zombies/zombies/zombie-16.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\zombies\\zombies\\zombie-16.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/zombies/zombies/zombie-20.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\zombies\\zombies\\zombie-20.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/click.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\click.wav",
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/click_press.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\click_press.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/run.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\run.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/AEPWM.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\AEPWM.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/ambientmain_0.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\ambientmain_0.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/Forgotten Spaceship.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Forgotten Spaceship.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/zombies/zombie-16.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\zombies\\zombie-16.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/zombies/zombie-21.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\zombies\\zombie-21.wav",
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "ativar_arma",
+      "value": "0"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fase1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameover"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/xicoevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/zombieevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/bossevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/armasevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/cameraevents"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

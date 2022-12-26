@@ -1,0 +1,411 @@
+{
+  "b": 74,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Fase1",
+  "name": "Fase1",
+  "r": 74,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 74,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "xico",
+      "persistentUuid": "91212857-1035-41a9-940c-695863df0f5e",
+      "width": 0,
+      "x": 302,
+      "y": 272,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "mira",
+      "persistentUuid": "d3fd2ac5-3132-4d8e-bb0b-538cdb3492b8",
+      "width": 0,
+      "x": 485,
+      "y": 327,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "zombie",
+      "persistentUuid": "d31354e5-5a92-46c2-8ebd-baaa681125da",
+      "width": 0,
+      "x": 114,
+      "y": 437,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "zombie",
+      "persistentUuid": "98f3b45f-6f0a-426b-87d7-fbc2f57409dd",
+      "width": 0,
+      "x": 188,
+      "y": 130,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "zombie",
+      "persistentUuid": "2d1b151b-2bfb-47e7-a077-0178ca8a0bec",
+      "width": 0,
+      "x": 523,
+      "y": 99,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "zombie",
+      "persistentUuid": "db815a81-63d4-4d1a-8b57-043012b3c44f",
+      "width": 0,
+      "x": 576,
+      "y": 414,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "xico",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 1200,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 1200,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Xico",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "player/Xico-1.png",
+                  "points": [
+                    {
+                      "name": "tiro",
+                      "x": 64,
+                      "y": 42
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "mira",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "mira",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "player/mira-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "bala",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "extraBorder": 0,
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside"
+        }
+      ],
+      "animations": [
+        {
+          "name": "bala",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "player/bala-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 5,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "zombie",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "zombieLife",
+          "type": "number",
+          "value": 4
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 100,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "zombie",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAhlJREFUeF7tmc1xQjEMhM0xR3pIGSkmpaUYykgPHHMkY4IZxfOwfrzyw1hcAb3dTyvZDIe0+OuwuP8UACIBixOIEVg8ALEEYwRiBBYnECPgGICLsPauTUA/XGr6ERu0HrYHqAf2Gq+FonS5A0AbHw6ih7S3+QKjR6NLAkYZT9+nr/T+8ekKQkt3qHnavhsIrV5oAnYzX1x4QNAQXRrAEPN55rkXOgWSBDyNeY9R2BWApONbiUCmgAPg1n2r+SoF3MRsvf/P89QArBBpgnYBYBVe3wusdaQAoPG3im1lPBux1B0OwCKysfyub1XXZM0uEO8AWAIQAHLXfs7nu9G34xHyG6G1AwKAJletzyISkOuTX4Z0BLhF3rQxJAFlZlFAkTfCYQA8ICBuhAGgEUvYEizPsO4COvs0Sd4JyM+CQrAAqI+/LIocgZa1Ir4HQAFYzJfNT89/CqCnZkp//4xzRwgsAVax9fF3a3nWfbHWlF6FS7wgEKxiH12Je+q9BADL8JP03L/OjQAsBT0do2YRm5/WkwKALMReCGjzkiVIYXXvgtkB7JoCj+5rEwDZB9oUPNt/g90joQHg1XXrEtw6edR7QQLAu+tIAOqxaAEYabwI1xyDkrsHm4gaQPVLD62H1ez5QBbG1s2MVQz+gCcAsFSfcgHAh+s8VSMB8/TKR2kkwIfrPFUjAfP0ykdpJMCH6zxVIwHz9MpH6S9HzLJBuKIOaQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAhhJREFUeF7tmT1SAzEMhTcFNDQZTsBJcgpqKg7AUTgAVeqcgpPkBEwaGiiWEYMZjce/suRZxy9VJtm1pU/vSetkt0z+2k2e/wIAUMDkBGCByQWAJggLwAKTE4AFJhcApgAsAAtMTsDMAu8PdyuxPZw/zfbQqJ1ZcA5ADsLz/mZ9u3ybxZGDpL5xqPIpNVwNAJ5kqPr0mW8HSp4qNLQC/Ory5Ln8Qr0gBKB372iygKtqLGnffxwCl76vmJBacl6Wfi8GkEo+1/l934fWyq0hTdi/TwUABVva9SmAVPW1EitdpwlAbJNU9WKNr6fsedxiAHyR3o2rtLol16kAKNloq9cMAeDl/rS+fjyaxGqyqKu2lq8BAAo4/T4ycxtoqcLMAtqTgRL2G6lGXxADyCWo5X/r6VENwD/1xR56HIDW466W1GMgqwCETn4pAMfL1/++kiOvdfIUnBhAiQUIACUuVcEQAEI/eREcV/2n/e3iQNT6ebMAXCL8FMit4ABQ8vS6GgD8CY9DoPe+Jfipr8UCIdVojD+3blUPCJ0AfRAckkYTtJj9Ksfh3Jzn32/hx0+VMVjTxADg75+hliZYA1x6rbgH1GzopoLkYahmH8m1XQBQYNJJIEmq5h4AqKHVcu1WJ0E3BbTAs7wXACzpjrA2FDBClSxjhAIs6Y6wNhQwQpUsY4QCLOmOsDYUMEKVLGOEAizpjrD29Ar4AbaWb1CmHeGmAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"/home/ribafs/GDevelop projects/FromScratch/player/zombie-1.png\"],\"name\":\"zombie\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "player/zombie-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Xicó evento",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "xicoEvents"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Zombie evento",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "zombieEvents"
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 7952960,
+      "ambientLightColorR": 16,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}

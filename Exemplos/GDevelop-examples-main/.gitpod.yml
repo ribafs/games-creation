@@ -1,0 +1,14 @@
+# This configuration file to initialise a Gitpod workspace.
+
+tasks:
+  - name: Install dependencies and build
+    init: |
+          cd ..
+          git clone https://github.com/4ian/GDevelop.git
+          cd GDevelop/newIDE/app 
+          npm install
+          cd ../../../GDevelop-examples
+          npm install
+          npm run build -- --gdevelop-root-path ../GDevelop
+
+

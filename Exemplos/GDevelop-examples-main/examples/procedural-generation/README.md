@@ -1,0 +1,1 @@
+An example that shows the fundementals of creating a simple top down (2D) procedural generation system. Using the Noise and ExtendedMath extensions.

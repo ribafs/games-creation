@@ -1,0 +1,1 @@
+Learn two different ways to create a background that is scrolling infinitely.

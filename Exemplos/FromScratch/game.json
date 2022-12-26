@@ -1,0 +1,219 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "br.net.ribamar.scratch",
+    "pixelsRounding": false,
+    "projectUuid": "c5111a2a-cb2f-4ad1-9da9-5810e591cd5f",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "From Scratch",
+    "description": "Jogo do zero criado seguindo a playlist\nhttps://www.youtube.com/playlist?list=PLRwRR3G4X_Nwxd8RT95p2wW9jQ7wy7fIG",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [
+      "UJ9yyP4H49bSz5FDX9c99IlaGXm2"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "player/Xico-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/Xico-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/mira-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/mira-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/mira-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/mira-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/bala-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/bala-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie_morte-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie_morte-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie_morte-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie_morte-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie_morte-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie_morte-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie_morte-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie_morte-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie_morte-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie_morte-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie_morte-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie_morte-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie_morte-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie_morte-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/zombie_morte-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/zombie_morte-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "player/barra_vida-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player/barra_vida-1.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "vida",
+      "type": "string",
+      "value": "100"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fase1"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/xicoevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/zombieevents"
+    }
+  ],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

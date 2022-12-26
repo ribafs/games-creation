@@ -1,0 +1,1 @@
+Demonstrates how to use GDevelop leaderboards for two types of games: Highscore and Speedrun.

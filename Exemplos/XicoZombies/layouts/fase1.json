@@ -1,0 +1,2050 @@
+{
+  "b": 155,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Fase1",
+  "name": "Fase1",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 155,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 155,
+  "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": false,
+    "windowMask": false,
+    "zoomFactor": 0.808
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "main",
+      "locked": false,
+      "name": "xico",
+      "persistentUuid": "39bd411e-300c-48fc-a90b-bf229940b617",
+      "width": 0,
+      "x": 192,
+      "y": 228,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "vida",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "main",
+      "locked": false,
+      "name": "mira",
+      "persistentUuid": "a49ec312-40ad-4057-b438-ab3ece7e9a9c",
+      "width": 0,
+      "x": 359,
+      "y": 234,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "main",
+      "locked": false,
+      "name": "Zombie",
+      "persistentUuid": "668f7704-d326-482b-acb7-b159145f3f85",
+      "width": 0,
+      "x": 641,
+      "y": 459,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "main",
+      "locked": false,
+      "name": "Zombie",
+      "persistentUuid": "ce39f771-b439-4451-bc86-597da11584e4",
+      "width": 0,
+      "x": 116,
+      "y": 108,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "main",
+      "locked": false,
+      "name": "Zombie",
+      "persistentUuid": "8358a6d8-40a8-40de-bcf6-db195febf8d6",
+      "width": 0,
+      "x": 441,
+      "y": 100,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "main",
+      "locked": false,
+      "name": "Zombie",
+      "persistentUuid": "b8d0da8f-93b6-4800-9df7-385b3fe4a113",
+      "width": 0,
+      "x": 114,
+      "y": 435,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "vida",
+      "persistentUuid": "8f9c9f2a-f15c-44cb-83c3-446352c00b93",
+      "width": 0,
+      "x": 7,
+      "y": 119,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "var",
+      "persistentUuid": "139ec874-92b8-4fc4-92d5-880382bb10c4",
+      "width": 0,
+      "x": 229,
+      "y": 30,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "main",
+      "locked": false,
+      "name": "municao",
+      "persistentUuid": "5b747e4b-b686-47ce-9690-404324b196c4",
+      "width": 0,
+      "x": 381,
+      "y": 457,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 2304,
+      "layer": "BG",
+      "locked": false,
+      "name": "bg",
+      "persistentUuid": "68cb349c-8690-48e7-9c4b-e404edf5248d",
+      "width": 4192,
+      "x": -1792,
+      "y": -832,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "2a36c7d5-74d8-4991-babc-1925f5fe5927",
+      "width": 128,
+      "x": -960,
+      "y": -128,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "06766926-b005-4a70-bcd6-d2ccf15deb4f",
+      "width": 128,
+      "x": -1408,
+      "y": 192,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "main",
+      "locked": false,
+      "name": "Boss",
+      "persistentUuid": "8dd983c5-4ca4-470d-8798-7c134e4e7d9f",
+      "width": 0,
+      "x": 544,
+      "y": -64,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "1debfdd4-ec24-4c36-9d99-8cb9f6cc59a2",
+      "width": 160,
+      "x": -1432,
+      "y": -815,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "311a4d10-0a9f-4473-beac-d7cf14b391de",
+      "width": 128,
+      "x": 576,
+      "y": 192,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "5885ae99-e119-41c5-8e1c-0fc405109ae0",
+      "width": 128,
+      "x": -955,
+      "y": 875,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "3bf89d0d-344c-4fd8-8fe8-fd4c1469cecb",
+      "width": 128,
+      "x": 2048,
+      "y": 864,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "17eb3aa9-d05e-436b-9008-6d98546dfd9a",
+      "width": 128,
+      "x": 1568,
+      "y": 192,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "abc1a737-35f6-4fb7-bd1d-70b61f1e8af0",
+      "width": 128,
+      "x": 1056,
+      "y": 864,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "0dbfab71-ec93-4aef-8c08-7bd7c52dd251",
+      "width": 160,
+      "x": 1568,
+      "y": 1184,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "cb3cb795-1b2c-4f78-9624-73d720f2169f",
+      "width": 160,
+      "x": 576,
+      "y": 1184,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "c477f763-e7bc-4aa7-a2e2-055526297d3e",
+      "width": 160,
+      "x": -416,
+      "y": 1184,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "a6d90edd-ccc0-4e28-8c02-44a23453c57f",
+      "width": 160,
+      "x": -1440,
+      "y": 1184,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "b85d23b8-0f4c-4317-87b7-e23032bd33fb",
+      "width": 128,
+      "x": 41,
+      "y": 876,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "7c8bd3b1-3727-4a7f-8519-a7716d8d4137",
+      "width": 128,
+      "x": 1056,
+      "y": -128,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "e72f125d-77b0-4e03-9935-4a5783a50d72",
+      "width": 128,
+      "x": 64,
+      "y": -128,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "5229f662-48b1-4d84-af25-becfeaca4025",
+      "width": 128,
+      "x": -416,
+      "y": 192,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "79c0c219-dde5-4095-9ab0-d37879eb691b",
+      "width": 128,
+      "x": 2048,
+      "y": -128,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "e0d461d2-1a78-449a-8850-46f40ade7298",
+      "width": 160,
+      "x": 1568,
+      "y": -814,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "fba42142-3fda-4968-8787-519cb2975b09",
+      "width": 160,
+      "x": 568,
+      "y": -817,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "BG",
+      "locked": false,
+      "name": "colisao",
+      "persistentUuid": "fb4956ce-13b9-4239-834a-066a18236285",
+      "width": 160,
+      "x": -427,
+      "y": -812,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "xico",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "vida",
+          "value": "100"
+        },
+        {
+          "name": "arma",
+          "value": "1"
+        },
+        {
+          "name": "municao",
+          "value": "30"
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 1200,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "deceleration": 1200,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "rotateObject": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Xico",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\Xico-1.png",
+                  "points": [
+                    {
+                      "name": "tiro",
+                      "x": 64,
+                      "y": 42
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 32,
+                    "y": 42
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5748,
+                        "y": 15.3571
+                      },
+                      {
+                        "x": 53.4319,
+                        "y": 31.7857
+                      },
+                      {
+                        "x": 44.5033,
+                        "y": 48.5714
+                      },
+                      {
+                        "x": 18.0748,
+                        "y": 54.2857
+                      },
+                      {
+                        "x": 5.21763,
+                        "y": 30.3571
+                      },
+                      {
+                        "x": 19.5033,
+                        "y": 8.21429
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "xico_morte",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie\\xico_morte-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5748,
+                        "y": 15.3571
+                      },
+                      {
+                        "x": 53.4319,
+                        "y": 31.7857
+                      },
+                      {
+                        "x": 44.5033,
+                        "y": 48.5714
+                      },
+                      {
+                        "x": 18.0748,
+                        "y": 54.2857
+                      },
+                      {
+                        "x": 5.21763,
+                        "y": 30.3571
+                      },
+                      {
+                        "x": 19.5033,
+                        "y": 8.21429
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie\\xico_morte-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5748,
+                        "y": 15.3571
+                      },
+                      {
+                        "x": 53.4319,
+                        "y": 31.7857
+                      },
+                      {
+                        "x": 44.5033,
+                        "y": 48.5714
+                      },
+                      {
+                        "x": 18.0748,
+                        "y": 54.2857
+                      },
+                      {
+                        "x": 5.21763,
+                        "y": 30.3571
+                      },
+                      {
+                        "x": 19.5033,
+                        "y": 8.21429
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie\\xico_morte-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5748,
+                        "y": 15.3571
+                      },
+                      {
+                        "x": 53.4319,
+                        "y": 31.7857
+                      },
+                      {
+                        "x": 44.5033,
+                        "y": 48.5714
+                      },
+                      {
+                        "x": 18.0748,
+                        "y": 54.2857
+                      },
+                      {
+                        "x": 5.21763,
+                        "y": 30.3571
+                      },
+                      {
+                        "x": 19.5033,
+                        "y": 8.21429
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie\\xico_morte-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5748,
+                        "y": 15.3571
+                      },
+                      {
+                        "x": 53.4319,
+                        "y": 31.7857
+                      },
+                      {
+                        "x": 44.5033,
+                        "y": 48.5714
+                      },
+                      {
+                        "x": 18.0748,
+                        "y": 54.2857
+                      },
+                      {
+                        "x": 5.21763,
+                        "y": 30.3571
+                      },
+                      {
+                        "x": 19.5033,
+                        "y": 8.21429
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie\\xico_morte-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5748,
+                        "y": 15.3571
+                      },
+                      {
+                        "x": 53.4319,
+                        "y": 31.7857
+                      },
+                      {
+                        "x": 44.5033,
+                        "y": 48.5714
+                      },
+                      {
+                        "x": 18.0748,
+                        "y": 54.2857
+                      },
+                      {
+                        "x": 5.21763,
+                        "y": 30.3571
+                      },
+                      {
+                        "x": 19.5033,
+                        "y": 8.21429
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie\\xico_morte-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5748,
+                        "y": 15.3571
+                      },
+                      {
+                        "x": 53.4319,
+                        "y": 31.7857
+                      },
+                      {
+                        "x": 44.5033,
+                        "y": 48.5714
+                      },
+                      {
+                        "x": 18.0748,
+                        "y": 54.2857
+                      },
+                      {
+                        "x": 5.21763,
+                        "y": 30.3571
+                      },
+                      {
+                        "x": 19.5033,
+                        "y": 8.21429
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Zombie\\xico_morte-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.5748,
+                        "y": 15.3571
+                      },
+                      {
+                        "x": 53.4319,
+                        "y": 31.7857
+                      },
+                      {
+                        "x": 44.5033,
+                        "y": 48.5714
+                      },
+                      {
+                        "x": 18.0748,
+                        "y": 54.2857
+                      },
+                      {
+                        "x": 5.21763,
+                        "y": 30.3571
+                      },
+                      {
+                        "x": 19.5033,
+                        "y": 8.21429
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mira",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "mira",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "player\\mira-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bala",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "bala",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "player\\bala-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 5,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zombie",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "zombieLife",
+          "value": "4"
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "maxSpeed": 100,
+          "rotateObject": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "Zombie",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACZ0lEQVR4Xu2Y0XHDIAyG4zH60M6QcbpGJulqnaEvHcM9+wwhWBhJSAIKfepdiK3/0y8hZbkN/rcMrv82AUwHDE5glsDgBphNcJbALIHBCWiUwIpgqvFexGvPR6QCwYhOBSgVgzmAEtHNwODS1xDvoHBjMnGApvBYgAkIykvUxa+/3x7C8nbf/qfEp+oAdfFb9CGAXb0BBAxhE/EQAAsIOQBVxfuuqOiEKwBm4lPZD4taqxx6A8BqdMGXTnpTAEyzj3GA6wfvnzCDn6/nDZKcsoBSagJA3P2vBIQAnOiPx/2GAQD1FAiAWfaxwuNeEEPoAgBF7NbwUue3zxwAqgOgRmrqACyEGMAReGkDBCfLGICJ/XMgnODt3A5jfYa1LD7k3AyDAtYkANfxHajQAQ6K1J7QBYDTmig4GU4AEV2VHhDYNtndUQV7HJIci00ckGt6FPHSG6I6gBLx4W2gtRipA8DO+dGY6vVCAP91CUBToOU1uCeMWpPufInd47s/dERiEOKEiVqH2QCodofu9wvL++PQSozZBk12gVIX5NIaLkPuLEZ8qomq/B6gBQESvwlrDoBUT4BKJLY/RTy2BHz8OTvmPpd0gtBKjGqCLQMQWYFf+kEmi9VuBK3J71RWORtz5wIp+0tOfZBWrKXITpAAoC1+H74QDijqCVwQFuKpANhjMgVC0O0pySHk8fUo9yXkksCMyVZZp9wCV2RFIET3Ozch5g6IX8iCcTzEXLSUA1LUMTCqitYGwLZjjS82k4ka4jnXYK041d47HaCGtpMHTwd0kii1MKcD1NB28uDpgE4SpRbm8A74A+ya4EF15LWbAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACPklEQVR4Xu2YbWoEMQiGs3ObQmGv0yP2OguF3ma2uGARSTJqzDht3J9Lvt7HV+PkVhb/3RbXXxJAOmBxApkCixsgi2CmQKbA4gQyBRY3QN4CmQKzU+CjlCfs8Vmu6bbpDkAACLoHIgKWOwAqGMRKAEQIx4AMAagdnAOQpJhljmRdyRgzAM9De64lEU3HuACgC1qKHQCwzNOKrY03A4DFeH5bQdy37fm276/pWDcQyGw44QBA4Pe2FQqAgpxdIIcAtFygsTONfkS/EAoAxD/2ffgMI7XgtM1BbO2gywKQCn/f7r/gvvaHe8DcFxyxY20uAJgh3KUT9BbL18PoUwDeQE53gOZep/ancDwdIQIg+aCRukEDQLrmyLipAGo9/p8D0Gt3eeNyNFbyJjASTcvcrgMkgmjXV0sV+h+2vJpO0SJKM8cMgIuQiIeDwf2PHaC0E5zZCxzWgJYLegDolxyIhshbu0B+FZ56DVrEU7H4hQf/STs/CspbrPo9IBoAHHg2hGYKaB47eKGz2r1VvEJqgAYAfReA/L/ql58qBUYA4EYcRKsORDZH6lugdYf3rkEsjL1CGAXhEAB/9poFQLqPpsmRjHUHQAHVaoHlOpQIsY4RAeCLS15q8bWXz10KAIqX1ABrBEfnmRzAr73aIVq9wb9wgAQAHcO/Ba4EwewAifVorbhqQTwNQK05uoITpgKQuCR6TAKIjkD0/umA6AhE758OiI5A9P7pgOgIRO+fDoiOQPT+6YDoCETvv7wDfgCkMRNQbtVnPQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\G51 Informatica\\\\Documents\\\\GDevelop projects\\\\Xicó vs Zombies\\\\Zombie\\\\Zombie-1.png\"],\"name\":\"Zombie\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zombie_morte",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie_morte-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie_morte-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie_morte-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie_morte-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie_morte-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie_morte-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie_morte-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\Zombie_morte-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vida",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "barra_de_vida",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Zombie\\barra_de_vida-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 110
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Boss",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Boss_life",
+          "value": "50"
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "maxSpeed": 90,
+          "rotateObject": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "Boss-1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Boss\\Boss-1-1.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 105,
+                        "y": 46.6667
+                      },
+                      {
+                        "x": 129.167,
+                        "y": 103.333
+                      },
+                      {
+                        "x": 101.667,
+                        "y": 157.5
+                      },
+                      {
+                        "x": 42.5,
+                        "y": 181.667
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 100.833
+                      },
+                      {
+                        "x": 47.5,
+                        "y": 6.66667
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-1.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-2.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-3.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-4.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-5.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-6.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-7.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-8.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-9.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss\\Boss_Sangue-10.png",
+                  "points": [
+                    {
+                      "name": "boca",
+                      "x": 140,
+                      "y": 100
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 75,
+                    "y": 100
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "alphaParam": "Mutable",
+      "angleParam": "Mutable",
+      "blueParam": "Random",
+      "destroyWhenNoParticles": true,
+      "emissionEditionSimpleMode": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 180,
+      "emitterForceMax": 80,
+      "emitterForceMin": 75,
+      "emitterXDirection": 0,
+      "emitterYDirection": 1,
+      "emitterZDirection": 0,
+      "flow": 500,
+      "friction": 2,
+      "gravityEditionSimpleMode": true,
+      "greenParam": "Random",
+      "maxParticleNb": 1000,
+      "name": "gas",
+      "particleAlpha1": 10,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 5,
+      "particleBlue2": 134,
+      "particleEditionSimpleMode": true,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGravityZ": 0,
+      "particleGreen1": 117,
+      "particleGreen2": 233,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 65,
+      "particleRed2": 184,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "redParam": "Enabled",
+      "rendererParam1": 20,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "sizeParam": "Mutable",
+      "tags": "",
+      "tank": 20,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 200,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "Machine_icon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Machine_icon",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "player\\Machine_icon-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "var",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "municao",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "municao_icon",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "player\\municao_icon-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "bg",
+      "tags": "",
+      "texture": "Background\\background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "colisao",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "colisao",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "uteis\\colisao-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Musica",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Sounds\\AEPWM.ogg",
+                "2",
+                "yes",
+                "30",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Xicó evento",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "xicoEvents"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Zombie Event",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ZombieEvents"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Boss Event",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "BossEvents"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Camera",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "CameraEvents"
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 26466,
+      "ambientLightColorR": 33554432,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "BG",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 7658712,
+      "ambientLightColorR": 1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "main",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 6000080,
+      "ambientLightColorR": 67108864,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}
