@@ -2,6 +2,12 @@
 
 Grande comunidade e excelente documentação.
 
+Boas Dicas
+
+Vários tutoriais
+
+Muiros exemplos com c
+
 ## https://gdevelop.io/
 
 
