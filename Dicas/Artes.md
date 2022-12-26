@@ -1,0 +1,34 @@
+# Assets
+
+Quem trabalha criando jogos precisa muito de arte para tornar seus jogos mais bonitos e interativos:
+
+- sprites
+- animações
+- áudio
+- vídeos (alguns)
+
+Ou você é um artista e cria sua arte, que é o ideal, ou então recorre a sites com estas artes para baixar e usar.
+
+Uma excelente ferramenta do GDevelop, que ajuda na edição e criação de sprites e animações é o piskel, editor do GDevelip.
+
+Bons exemplos e sites com artes para jogos royalts free (é bom tomar cuidado com a licença da arte usada nos jogos)
+
+https://github.com/ribafs/assets
+
+https://opengameart.org/
+
+https://www.kenney.nl/
+
+https://br.freepik.com/
+
+https://www.maxon.net/en/zbrush
+
+https://br.freepik.com/
+
+https://www.gamedevmarket.net/
+
+https://www.gameart2d.com/
+
+https://craftpix.net/
+
+
